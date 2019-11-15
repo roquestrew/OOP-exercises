@@ -37,3 +37,36 @@ console.log(`phone: ${sonny.phone}, email: ${sonny.email}`);
 // Write another statement to print the contact info of Jordan.
 
 console.log(`phone: ${jordan.phone}, email: ${jordan.email}`);
+
+// CARD
+
+// > let myCard = new Card(5, 'diamonds')
+
+// > myCard.point
+// 5
+// > myCard.suit
+// 'diamonds'
+
+// getImageUrl()
+
+// > myCard.getImageUrl()
+// 'images/5_of_diamonds.png'
+
+// HAND
+
+// > var myHand = new Hand()
+// > myHand.addCard(new Card(5, 'diamonds'))
+// > myHand.addCard(new Card(13, 'spades'))
+// > myHand.getPoints()
+// 15
+
+// DECK
+
+// > var myDeck = new Deck()
+// > myDeck.draw()
+// Card {point: 6, suit: "clubs"}
+// > myDeck.draw()
+// Card {point: 1, suit: "spades"}
+// > myDeck.shuffle()
+// > myDeck.numCardsLeft()
+// 50
