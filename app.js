@@ -40,12 +40,26 @@ console.log(`phone: ${jordan.phone}, email: ${jordan.email}`);
 
 // CARD ////////////////////////////////////////////////////////////////////////
 
+class Card {
+  constructor(point, suit) {
+      this.point = point;
+      this.suit = suit;
+  }
+}
 // > let myCard = new Card(5, 'diamonds')
+
+let myCard = new Card(5, 'diamonds');
 
 // > myCard.point
 // 5
+
+console.log(myCard.point);
+
 // > myCard.suit
 // 'diamonds'
+
+console.log(myCard.suit);
+
 
 // getImageUrl()
 
