@@ -1,4 +1,4 @@
-// PERSON
+// PERSON ////////////////////////////////////////////////////////////////////////
 
 class Person {
   constructor(name, email, phone) {
@@ -38,7 +38,7 @@ console.log(`phone: ${sonny.phone}, email: ${sonny.email}`);
 
 console.log(`phone: ${jordan.phone}, email: ${jordan.email}`);
 
-// CARD
+// CARD ////////////////////////////////////////////////////////////////////////
 
 // > let myCard = new Card(5, 'diamonds')
 
@@ -52,7 +52,7 @@ console.log(`phone: ${jordan.phone}, email: ${jordan.email}`);
 // > myCard.getImageUrl()
 // 'images/5_of_diamonds.png'
 
-// HAND
+// HAND ////////////////////////////////////////////////////////////////////////
 
 // > var myHand = new Hand()
 // > myHand.addCard(new Card(5, 'diamonds'))
@@ -60,7 +60,7 @@ console.log(`phone: ${jordan.phone}, email: ${jordan.email}`);
 // > myHand.getPoints()
 // 15
 
-// DECK
+// DECK ////////////////////////////////////////////////////////////////////////
 
 // > var myDeck = new Deck()
 // > myDeck.draw()
