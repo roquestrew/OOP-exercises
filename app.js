@@ -46,7 +46,7 @@ class Card {
     this.suit = suit;
   }
   getImageUrl() {
-    return `./images/${this.point}_of_${this.suit}.png`;
+    return `images/${this.point}_of_${this.suit}.png`;
   }
 }
 // > let myCard = new Card(5, 'diamonds')
@@ -54,16 +54,16 @@ class Card {
 let myCard = new Card(5, "diamonds");
 
 // > myCard.point
-// 5
 
-console.log(myCard.point);
+console.log(myCard.point); // 5
 
 // > myCard.suit
-// 'diamonds'
 
-console.log(myCard.suit);
+console.log(myCard.suit); // 'diamonds'
 
 // getImageUrl()
+
+console.log(myCard.getImageUrl())
 
 // > myCard.getImageUrl()
 // 'images/5_of_diamonds.png'
