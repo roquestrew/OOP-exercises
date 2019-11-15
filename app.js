@@ -22,3 +22,11 @@ const sonny = new Person('Sonny', 'sonny@hotmail.com', '483-485-4948');
 
 const jordan = new Person('Jordan', 'jordan@aol.com', '495-586-3456');
 
+// Have sonny greet jordan using the greet method.
+
+sonny.greet(jordan);
+
+// Have jordan greet sonny using the greet method.
+
+jordan.greet(sonny);
+
