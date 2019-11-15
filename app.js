@@ -30,3 +30,10 @@ sonny.greet(jordan);
 
 jordan.greet(sonny);
 
+// Write a statement to print the contact info (email and phone) of Sonny.
+
+console.log(`phone: ${sonny.phone}, email: ${sonny.email}`);
+
+// Write another statement to print the contact info of Jordan.
+
+console.log(`phone: ${jordan.phone}, email: ${jordan.email}`);
